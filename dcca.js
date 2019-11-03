@@ -17,6 +17,9 @@
     // how many times the user hovered the menu
     document.getElementById("sidebar").addEventListener("mouseout", func4);    
 
+    //How many times the website was left
+    document.addEventListener("mouseout", func5)
+
 
 //functions when event lissener is triggered
     
@@ -36,6 +39,10 @@ function func4(){
     menuSectionLeft++;
 };
 
+function func5(){
+    leftSite++;
+};
+
 
 
  //varables
@@ -44,9 +51,16 @@ function func4(){
  let adBoxLeft = 0;
  let mainSectionLeft = 0;
  let menuSectionLeft = 0;
-
+ let leftSite = 0;
 
 
 
 
 // compiling algorithim
+
+
+let comp = click + "," + adBoxLeft + "," + mainSectionLeft + "," + menuSectionLeft + "," + leftSite;
+
+function prossess(){
+    comp = click + "," + adBoxLeft + "," + mainSectionLeft + "," + menuSectionLeft + "," + leftSite;
+};
