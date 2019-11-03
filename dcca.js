@@ -18,7 +18,7 @@
     document.getElementById("sidebar").addEventListener("mouseout", func4);    
 
     //How many times the website was left
-    document.addEventListener("mouseout", func5)
+    document.addEventListener("mouseout", func5);
 
 
 //functions when event lissener is triggered
