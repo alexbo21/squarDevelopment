@@ -2,6 +2,7 @@
 // (DCCA)
 
 
+ 
 
 // event Lisseners
 
@@ -20,6 +21,7 @@
     //How many times the website was left
     document.addEventListener("mouseout", func5);
 
+  
 
 //functions when event lissener is triggered
     
@@ -45,13 +47,13 @@ function func5(){
 
 
 
- //varables
+//varables
 
- let click = 0;
- let adBoxLeft = 0;
- let mainSectionLeft = 0;
- let menuSectionLeft = 0;
- let leftSite = 0;
+let click = 0;
+let adBoxLeft = 0;
+let mainSectionLeft = 0;
+let menuSectionLeft = 0;
+let leftSite = 0;
 
 
 
@@ -59,8 +61,8 @@ function func5(){
 // compiling algorithim
 
 
-let comp = click + "," + adBoxLeft + "," + mainSectionLeft + "," + menuSectionLeft + "," + leftSite;
+let comp = click + "." + adBoxLeft + "." + mainSectionLeft + "." + menuSectionLeft + "." + leftSite;
 
 function prossess(){
-    comp = click + "," + adBoxLeft + "," + mainSectionLeft + "," + menuSectionLeft + "," + leftSite;
+    comp = click + "." + adBoxLeft + "." + mainSectionLeft + "," + menuSectionLeft + "," + leftSite + ",";
 };
