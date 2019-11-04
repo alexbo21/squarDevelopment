@@ -1,1 +1,68 @@
+<!DOCTYPE html>
 
+<html lang="en">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+
+<title>Squar | Privacy</title>
+<header>Squar Privacy</header>
+<br><br><br>
+
+
+
+<p>
+    Squars upcoming 2.0.1 update will feature new data capturing algorithims, The data colected will be 
+    prossessed and sent to <a style="color:blue;" onClick="whatsCatDev()"><u>Cat Dev servers</u></a>.
+
+    <a id="whatsCatDevId" style="color:blue;" >
+        The cat development group is the owner of the squar service and website.
+        <button class="button" onClick="closeWhatsCatDev()">Exit</button>
+    </a>
+
+    <h3>Why and What will my data be used for?</h3>
+    <p>We want to collect data to inprove your user experance while using our service.
+        The algorithim that we created is called DCCA (Data Compiling and Compresing algorithim, V.1.0).
+        Our first version of the algorithim will collect data including the amount of mouse clicks, How many times
+        users hovered over the advertizement, sidebar and show sections. We are collecting this data to beta test
+        our algorithim. You can learn more about the DCCA algorithim and how it works at 
+        <a href="https://dcca.squar.me">dcca.squar.me</a>. Your data will be acsessable when the update comes out at
+        the bottom of the sidebar. The data we collect will not be shared with any 3rd party services and will only
+        be used for cat dev applications. Although DCCA will evencually collect more data when it's ready <br><br>
+
+        DCCA is legaly owned by The Cat Development Group.
+    </p>
+
+
+</p>
+<style>
+
+header{
+    font-size:70px;
+    font-family:Montserrat;
+}
+
+h3{
+    font-size:29px;
+    font-family:Montserrat;
+    margin:none;
+    padding:none;
+}
+
+p{
+    font-size:16px;
+    font-family:Montserrat;
+}
+</style>
+
+<script>
+
+document.getElementById("whatsCatDevId").style.display = "none";
+
+function whatsCatDev(){
+    document.getElementById("whatsCatDevId").style.display = "block";
+};
+
+function closeWhatsCatDev(){
+    document.getElementById("whatsCatDevId").style.display = "none";
+};
+</script>
+</html>
