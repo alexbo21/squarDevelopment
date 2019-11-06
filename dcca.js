@@ -66,3 +66,7 @@ let comp = click + "." + adBoxLeft + "." + mainSectionLeft + "." + menuSectionLe
 function prossess(){
     comp = click + "." + adBoxLeft + "." + mainSectionLeft + "," + menuSectionLeft + "," + leftSite + ",";
 };
+
+function show(){
+ alert(comp);
+};
