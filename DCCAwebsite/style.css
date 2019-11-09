@@ -1,0 +1,37 @@
+.headerbar{
+    height:50px;
+    width:100%;
+    background:green;
+    border-bottom:4px grey;
+}
+
+.menuOption{
+    height:50px;
+    width:100px;
+    font-size:17px;
+    font-family:Montserrat;
+    font-weight:900;
+    border:none;
+    background:none;
+    top:0px;
+    bottom:0px;
+}
+
+.menuOption:hover{
+    height:50px;
+    width:100px;
+    font-size:17px;
+    font-family:Montserrat;
+    font-weight:900;
+    border:none;
+    background:none;
+    top:0px;
+    bottom:0px;
+    color:grey;
+}
+.mainHeader{
+    font-size:38px;
+    color:grey;
+    font-family:Montserrat;
+    font-weight: 900;
+}
